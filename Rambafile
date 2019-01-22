@@ -1,0 +1,26 @@
+### Headers settings
+company: Maksym Kovalko
+
+
+### Xcode project settings
+project_name: GitHubSearch
+xcodeproj_path: GitHubSearch.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: GitHubSearch
+
+# The file path for new modules
+project_file_path: Modules
+
+# The Xcode group path to new modules
+project_group_path: Modules
+
+### Dependencies settings section
+podfile_path: 
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}

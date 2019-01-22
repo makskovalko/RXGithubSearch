@@ -3,25 +3,121 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C7E4BA4B69B2E39442E045A /* SearchInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78E49F541502A47B992C850 /* SearchInteractorOutput.swift */; };
+		0CE878014B5A1AAB6036B8C7 /* AuthorizationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B436E4C3934ED4BB2FC90C52 /* AuthorizationInteractorInput.swift */; };
+		11DB85314D862971911A7CEB /* SearchRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD174C700EA5F92E9D8805F1 /* SearchRouterInput.swift */; };
+		1269CD6FAD79F2B2BD3227B7 /* SearchInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F247231703E77430F40800 /* SearchInteractorInput.swift */; };
+		1B0A1168051477B9375F1524 /* AuthorizationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC61BF340082D0A886C1D1 /* AuthorizationRouterInput.swift */; };
+		245F2EFA79AA39044580A3E6 /* SearchViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F27E4CA38DC612FE49CAA9 /* SearchViewInput.swift */; };
+		2F9C6C6555335F0B18283931 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF9A1FD9B6AB355F523C9C /* SearchPresenter.swift */; };
+		30EA851FA449BC806F785B30 /* AuthorizationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E73719F470CD32B73CA62DD /* AuthorizationViewOutput.swift */; };
+		50806A9035D49F75FA687104 /* SearchConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32BB03F5C8BA8302DC158C8 /* SearchConfigurator.swift */; };
+		53B3505FEAC688E9C08F9AE9 /* SearchModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677C9DCCD12B8E427F9C357C /* SearchModuleInput.swift */; };
+		62EC5FD3CBE540C4C56AE2A0 /* SearchViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A41247A91A43E6E168FA2 /* SearchViewOutput.swift */; };
+		6E24AAB58325AA413B417544 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90948ED3BB2747ADE8F5DA1 /* SearchRouter.swift */; };
+		739F23ED48B6044698703117 /* AuthorizationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9217F200E51A5F07E0A9126 /* AuthorizationConfigurator.swift */; };
+		7B5ACF410752A52ED56D5A54 /* AuthorizationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A93654E7EC3D43489AE38 /* AuthorizationInteractor.swift */; };
+		9224AB6C1651F85B377C19F2 /* Pods_GitHubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85A560DFFA275211199503D /* Pods_GitHubSearch.framework */; };
+		95B3BE0FE6D0032F078ECD1F /* AuthorizationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1ABA55794C31351F440DA /* AuthorizationPresenter.swift */; };
+		96D519F05EFA8DFB192C46DE /* AuthorizationInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E85D7D99C53C6B3D965BD4 /* AuthorizationInitializer.swift */; };
+		9A62826FD950C67FB79B10F3 /* AuthorizationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF30BCB0767459BB875C8C9 /* AuthorizationViewInput.swift */; };
+		9CCD2C4E29B145880B0CDDE8 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C18AF2BAEA1676FF59F0C1 /* AuthorizationViewController.swift */; };
+		B2617AE7ED7B9442B9B81D0A /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFCB8CF5BDC522E7B582B7 /* SearchInteractor.swift */; };
+		B3AE26EB44D70A118E78E39F /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643576B2469ADB79D6F673A /* AuthorizationRouter.swift */; };
+		C6B2B3923F75B2ECADF56CEB /* AuthorizationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A1243F9721A9638CA817C0 /* AuthorizationInteractorOutput.swift */; };
+		C8DF143B83814824B5F800F1 /* SearchInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7544CB8170FB54D421D4C7D6 /* SearchInitializer.swift */; };
+		D65543B6ABBD71408A22C3FE /* AuthorizationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05BA5301A7C23C6D6567DAC /* AuthorizationModuleInput.swift */; };
 		E560DFAF20D7A3EE00C92C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560DFAE20D7A3EE00C92C41 /* AppDelegate.swift */; };
-		E560DFB120D7A3EF00C92C41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560DFB020D7A3EF00C92C41 /* ViewController.swift */; };
-		E560DFB420D7A3EF00C92C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E560DFB220D7A3EF00C92C41 /* Main.storyboard */; };
 		E560DFB620D7A3F100C92C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E560DFB520D7A3F100C92C41 /* Assets.xcassets */; };
 		E560DFB920D7A3F100C92C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E560DFB720D7A3F100C92C41 /* LaunchScreen.storyboard */; };
+		E585820F20D7AA2100BC3F40 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585820E20D7AA2100BC3F40 /* R.generated.swift */; };
+		E585821320D7B97F00BC3F40 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585821220D7B97F00BC3F40 /* Repository.swift */; };
+		E585821720D7D45C00BC3F40 /* GithubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585821620D7D45C00BC3F40 /* GithubRequest.swift */; };
+		E585821920D7D74C00BC3F40 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585821820D7D74C00BC3F40 /* Request.swift */; };
+		E585821C20D7E08200BC3F40 /* AutoLayout DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585821B20D7E08200BC3F40 /* AutoLayout DSL.swift */; };
+		E585822220D8016C00BC3F40 /* AuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585822120D8016C00BC3F40 /* AuthorizationService.swift */; };
+		E585822720D8063A00BC3F40 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585822620D8063A00BC3F40 /* Errors.swift */; };
+		E585822920D80C2700BC3F40 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585822820D80C2700BC3F40 /* User.swift */; };
+		E585822C20D812D100BC3F40 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585822B20D812D100BC3F40 /* Optional+Extension.swift */; };
+		E585822E20D8165900BC3F40 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585822D20D8165900BC3F40 /* UserDefaults.swift */; };
+		E585823020D817C700BC3F40 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585822F20D817C700BC3F40 /* Operators.swift */; };
+		E585823220D93BEF00BC3F40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585823120D93BEF00BC3F40 /* Constants.swift */; };
+		E596B1F620DAB6950053E35D /* Paginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596B1F520DAB6950053E35D /* Paginator.swift */; };
+		E596B1F820DABAE70053E35D /* SearchParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596B1F720DABAE70053E35D /* SearchParams.swift */; };
+		E596B1FA20DABD2E0053E35D /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596B1F920DABD2E0053E35D /* SearchService.swift */; };
+		E596B1FC20DBA2820053E35D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596B1FB20DBA2820053E35D /* String+Extension.swift */; };
+		E596B21320DBB3960053E35D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596B21220DBB3960053E35D /* Result.swift */; };
+		E596B21520DBD1430053E35D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596B21420DBD1430053E35D /* UIViewController+Extension.swift */; };
+		E596B21A20DBDC250053E35D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596B21920DBDC250053E35D /* WebViewController.swift */; };
+		E5AC8E0820DBE63F0072D120 /* SearchView+DataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC8E0720DBE63F0072D120 /* SearchView+DataSourceDelegate.swift */; };
+		E5AC8E0A20DBF3210072D120 /* RepositoryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC8E0920DBF3210072D120 /* RepositoryObject.swift */; };
+		E5AC8E0C20DBFA8E0072D120 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC8E0B20DBFA8E0072D120 /* Reachability.swift */; };
+		E5AC8E0E20DBFA9D0072D120 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC8E0D20DBFA9D0072D120 /* ReachabilityManager.swift */; };
+		E5AC8E1220DC0C670072D120 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC8E1120DC0C670072D120 /* AppRouter.swift */; };
+		F416A6337C59D6EBD512E791 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F7E10FB263BE16A336724B /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D6A41247A91A43E6E168FA2 /* SearchViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchViewOutput.swift; sourceTree = "<group>"; };
+		13F27E4CA38DC612FE49CAA9 /* SearchViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchViewInput.swift; sourceTree = "<group>"; };
+		37F247231703E77430F40800 /* SearchInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchInteractorInput.swift; sourceTree = "<group>"; };
+		38A1ABA55794C31351F440DA /* AuthorizationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationPresenter.swift; sourceTree = "<group>"; };
+		40F7E10FB263BE16A336724B /* SearchViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		516A93654E7EC3D43489AE38 /* AuthorizationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractor.swift; sourceTree = "<group>"; };
+		65C18AF2BAEA1676FF59F0C1 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		677C9DCCD12B8E427F9C357C /* SearchModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchModuleInput.swift; sourceTree = "<group>"; };
+		71CFCB8CF5BDC522E7B582B7 /* SearchInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		7544CB8170FB54D421D4C7D6 /* SearchInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchInitializer.swift; sourceTree = "<group>"; };
+		91A1243F9721A9638CA817C0 /* AuthorizationInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractorOutput.swift; sourceTree = "<group>"; };
+		97E85D7D99C53C6B3D965BD4 /* AuthorizationInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationInitializer.swift; sourceTree = "<group>"; };
+		9E73719F470CD32B73CA62DD /* AuthorizationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationViewOutput.swift; sourceTree = "<group>"; };
+		A05BA5301A7C23C6D6567DAC /* AuthorizationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationModuleInput.swift; sourceTree = "<group>"; };
+		A85A560DFFA275211199503D /* Pods_GitHubSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5CD64AAA9E08862D205252 /* Pods-GitHubSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubSearch/Pods-GitHubSearch.release.xcconfig"; sourceTree = "<group>"; };
+		B436E4C3934ED4BB2FC90C52 /* AuthorizationInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractorInput.swift; sourceTree = "<group>"; };
+		B78E49F541502A47B992C850 /* SearchInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchInteractorOutput.swift; sourceTree = "<group>"; };
+		C1EC61BF340082D0A886C1D1 /* AuthorizationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationRouterInput.swift; sourceTree = "<group>"; };
+		C9217F200E51A5F07E0A9126 /* AuthorizationConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationConfigurator.swift; sourceTree = "<group>"; };
+		CD174C700EA5F92E9D8805F1 /* SearchRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchRouterInput.swift; sourceTree = "<group>"; };
+		D0AF9A1FD9B6AB355F523C9C /* SearchPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		D0F8050A2E4F1B73E93A5BC1 /* Pods-GitHubSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubSearch/Pods-GitHubSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		D32BB03F5C8BA8302DC158C8 /* SearchConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchConfigurator.swift; sourceTree = "<group>"; };
+		D643576B2469ADB79D6F673A /* AuthorizationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
 		E560DFAB20D7A3EE00C92C41 /* GitHubSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E560DFAE20D7A3EE00C92C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E560DFB020D7A3EF00C92C41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E560DFB320D7A3EF00C92C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E560DFB520D7A3F100C92C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E560DFB820D7A3F100C92C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E560DFBA20D7A3F100C92C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E585820E20D7AA2100BC3F40 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		E585821220D7B97F00BC3F40 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		E585821620D7D45C00BC3F40 /* GithubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRequest.swift; sourceTree = "<group>"; };
+		E585821820D7D74C00BC3F40 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		E585821B20D7E08200BC3F40 /* AutoLayout DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutoLayout DSL.swift"; sourceTree = "<group>"; };
+		E585822120D8016C00BC3F40 /* AuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationService.swift; sourceTree = "<group>"; };
+		E585822620D8063A00BC3F40 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		E585822820D80C2700BC3F40 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E585822B20D812D100BC3F40 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		E585822D20D8165900BC3F40 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		E585822F20D817C700BC3F40 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		E585823120D93BEF00BC3F40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E596B1F520DAB6950053E35D /* Paginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginator.swift; sourceTree = "<group>"; };
+		E596B1F720DABAE70053E35D /* SearchParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParams.swift; sourceTree = "<group>"; };
+		E596B1F920DABD2E0053E35D /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		E596B1FB20DBA2820053E35D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		E596B21220DBB3960053E35D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E596B21420DBD1430053E35D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E596B21920DBDC250053E35D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E5AC8E0720DBE63F0072D120 /* SearchView+DataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchView+DataSourceDelegate.swift"; sourceTree = "<group>"; };
+		E5AC8E0920DBF3210072D120 /* RepositoryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryObject.swift; sourceTree = "<group>"; };
+		E5AC8E0B20DBFA8E0072D120 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E5AC8E0D20DBFA9D0072D120 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		E5AC8E1120DC0C670072D120 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		E90948ED3BB2747ADE8F5DA1 /* SearchRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		FFF30BCB0767459BB875C8C9 /* AuthorizationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationViewInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +125,156 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9224AB6C1651F85B377C19F2 /* Pods_GitHubSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF02AE4C5D535133617BB38 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				37F247231703E77430F40800 /* SearchInteractorInput.swift */,
+				B78E49F541502A47B992C850 /* SearchInteractorOutput.swift */,
+				71CFCB8CF5BDC522E7B582B7 /* SearchInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1AC6E37620125519BAC8E103 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CD174C700EA5F92E9D8805F1 /* SearchRouterInput.swift */,
+				E90948ED3BB2747ADE8F5DA1 /* SearchRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1C5FBA29EAA8C17C32381618 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E26F9BB4A50069FB531934CF /* View */,
+				C7FCDE9877272F0174B6E2A6 /* Presenter */,
+				0DF02AE4C5D535133617BB38 /* Interactor */,
+				1AC6E37620125519BAC8E103 /* Router */,
+				E4FB93F677BB55E3787DE189 /* Configurator */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		3304A4A1249BB2EAE8B3B41F /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				55646F6D8A070D9967A62CDA /* View */,
+				F6D8310DBE48FB59236DC388 /* Presenter */,
+				CA4FB780D74112E801882DE8 /* Interactor */,
+				72462EB9F2FC475044E0CBE6 /* Router */,
+				E53BA51ADB6C24780599227F /* Configurator */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		55646F6D8A070D9967A62CDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFF30BCB0767459BB875C8C9 /* AuthorizationViewInput.swift */,
+				9E73719F470CD32B73CA62DD /* AuthorizationViewOutput.swift */,
+				65C18AF2BAEA1676FF59F0C1 /* AuthorizationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		569EA230B895D90C8A15C03B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3304A4A1249BB2EAE8B3B41F /* Authorization */,
+				1C5FBA29EAA8C17C32381618 /* Search */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		57830BF4362503F2322AC24A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0F8050A2E4F1B73E93A5BC1 /* Pods-GitHubSearch.debug.xcconfig */,
+				AF5CD64AAA9E08862D205252 /* Pods-GitHubSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72462EB9F2FC475044E0CBE6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC61BF340082D0A886C1D1 /* AuthorizationRouterInput.swift */,
+				D643576B2469ADB79D6F673A /* AuthorizationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		83E7259978FBB41F58BFABF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A85A560DFFA275211199503D /* Pods_GitHubSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7FCDE9877272F0174B6E2A6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				677C9DCCD12B8E427F9C357C /* SearchModuleInput.swift */,
+				D0AF9A1FD9B6AB355F523C9C /* SearchPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CA4FB780D74112E801882DE8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B436E4C3934ED4BB2FC90C52 /* AuthorizationInteractorInput.swift */,
+				91A1243F9721A9638CA817C0 /* AuthorizationInteractorOutput.swift */,
+				516A93654E7EC3D43489AE38 /* AuthorizationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E26F9BB4A50069FB531934CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13F27E4CA38DC612FE49CAA9 /* SearchViewInput.swift */,
+				0D6A41247A91A43E6E168FA2 /* SearchViewOutput.swift */,
+				40F7E10FB263BE16A336724B /* SearchViewController.swift */,
+				E5AC8E0720DBE63F0072D120 /* SearchView+DataSourceDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4FB93F677BB55E3787DE189 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D32BB03F5C8BA8302DC158C8 /* SearchConfigurator.swift */,
+				7544CB8170FB54D421D4C7D6 /* SearchInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E53BA51ADB6C24780599227F /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				C9217F200E51A5F07E0A9126 /* AuthorizationConfigurator.swift */,
+				97E85D7D99C53C6B3D965BD4 /* AuthorizationInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		E560DFA220D7A3EE00C92C41 = {
 			isa = PBXGroup;
 			children = (
 				E560DFAD20D7A3EE00C92C41 /* GitHubSearch */,
 				E560DFAC20D7A3EE00C92C41 /* Products */,
+				57830BF4362503F2322AC24A /* Pods */,
+				83E7259978FBB41F58BFABF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +289,141 @@
 		E560DFAD20D7A3EE00C92C41 /* GitHubSearch */ = {
 			isa = PBXGroup;
 			children = (
-				E560DFAE20D7A3EE00C92C41 /* AppDelegate.swift */,
-				E560DFB020D7A3EF00C92C41 /* ViewController.swift */,
-				E560DFB220D7A3EF00C92C41 /* Main.storyboard */,
-				E560DFB520D7A3F100C92C41 /* Assets.xcassets */,
-				E560DFB720D7A3F100C92C41 /* LaunchScreen.storyboard */,
+				E596B21620DBDC0A0053E35D /* Common */,
+				E585822A20D812C500BC3F40 /* Extensions */,
+				E585822020D8015E00BC3F40 /* Services */,
+				E585821A20D7E07100BC3F40 /* Core Components */,
+				E585821520D7D44A00BC3F40 /* Networking */,
+				E585821120D7B97400BC3F40 /* Models */,
+				569EA230B895D90C8A15C03B /* Modules */,
+				E585820C20D7A8E900BC3F40 /* Supporting Files */,
 				E560DFBA20D7A3F100C92C41 /* Info.plist */,
 			);
 			path = GitHubSearch;
+			sourceTree = "<group>";
+		};
+		E585820C20D7A8E900BC3F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E560DFAE20D7A3EE00C92C41 /* AppDelegate.swift */,
+				E560DFB520D7A3F100C92C41 /* Assets.xcassets */,
+				E560DFB720D7A3F100C92C41 /* LaunchScreen.storyboard */,
+				E585820E20D7AA2100BC3F40 /* R.generated.swift */,
+				E585823120D93BEF00BC3F40 /* Constants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E585821120D7B97400BC3F40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC8E0F20DC02D40072D120 /* JSON */,
+				E5AC8E1020DC02E10072D120 /* Database */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E585821520D7D44A00BC3F40 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E585821820D7D74C00BC3F40 /* Request.swift */,
+				E585822620D8063A00BC3F40 /* Errors.swift */,
+				E585822320D8034B00BC3F40 /* Requests */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E585821A20D7E07100BC3F40 /* Core Components */ = {
+			isa = PBXGroup;
+			children = (
+				E585821B20D7E08200BC3F40 /* AutoLayout DSL.swift */,
+				E585822D20D8165900BC3F40 /* UserDefaults.swift */,
+				E585822F20D817C700BC3F40 /* Operators.swift */,
+				E596B21220DBB3960053E35D /* Result.swift */,
+				E5AC8E0B20DBFA8E0072D120 /* Reachability.swift */,
+				E5AC8E0D20DBFA9D0072D120 /* ReachabilityManager.swift */,
+			);
+			path = "Core Components";
+			sourceTree = "<group>";
+		};
+		E585822020D8015E00BC3F40 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E585822120D8016C00BC3F40 /* AuthorizationService.swift */,
+				E596B1F520DAB6950053E35D /* Paginator.swift */,
+				E596B1F920DABD2E0053E35D /* SearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E585822320D8034B00BC3F40 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				E585821620D7D45C00BC3F40 /* GithubRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		E585822A20D812C500BC3F40 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E585822B20D812D100BC3F40 /* Optional+Extension.swift */,
+				E596B1FB20DBA2820053E35D /* String+Extension.swift */,
+				E596B21420DBD1430053E35D /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E596B21620DBDC0A0053E35D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC8E1320DC0E7A0072D120 /* Routing */,
+				E596B21820DBDC150053E35D /* View Controllers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E596B21820DBDC150053E35D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E596B21920DBDC250053E35D /* WebViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E5AC8E0F20DC02D40072D120 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E585821220D7B97F00BC3F40 /* Repository.swift */,
+				E585822820D80C2700BC3F40 /* User.swift */,
+				E596B1F720DABAE70053E35D /* SearchParams.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		E5AC8E1020DC02E10072D120 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC8E0920DBF3210072D120 /* RepositoryObject.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		E5AC8E1320DC0E7A0072D120 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC8E1120DC0C670072D120 /* AppRouter.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		F6D8310DBE48FB59236DC388 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A05BA5301A7C23C6D6567DAC /* AuthorizationModuleInput.swift */,
+				38A1ABA55794C31351F440DA /* AuthorizationPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +433,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E560DFBD20D7A3F100C92C41 /* Build configuration list for PBXNativeTarget "GitHubSearch" */;
 			buildPhases = (
+				2B01F4CA72F38C3B14163D01 /* [CP] Check Pods Manifest.lock */,
 				E560DFA720D7A3EE00C92C41 /* Sources */,
 				E560DFA820D7A3EE00C92C41 /* Frameworks */,
 				E560DFA920D7A3EE00C92C41 /* Resources */,
+				CEE05B54AEA5C531C899FEFE /* [CP] Embed Pods Frameworks */,
+				E585820D20D7A9E100BC3F40 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -96,11 +461,12 @@
 				TargetAttributes = {
 					E560DFAA20D7A3EE00C92C41 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = E560DFA620D7A3EE00C92C41 /* Build configuration list for PBXProject "GitHubSearch" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -124,33 +490,133 @@
 			files = (
 				E560DFB920D7A3F100C92C41 /* LaunchScreen.storyboard in Resources */,
 				E560DFB620D7A3F100C92C41 /* Assets.xcassets in Resources */,
-				E560DFB420D7A3EF00C92C41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B01F4CA72F38C3B14163D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHubSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE05B54AEA5C531C899FEFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GitHubSearch/Pods-GitHubSearch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubSearch/Pods-GitHubSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E585820D20D7A9E100BC3F40 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E560DFA720D7A3EE00C92C41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E560DFB120D7A3EF00C92C41 /* ViewController.swift in Sources */,
 				E560DFAF20D7A3EE00C92C41 /* AppDelegate.swift in Sources */,
+				E585823220D93BEF00BC3F40 /* Constants.swift in Sources */,
+				E585820F20D7AA2100BC3F40 /* R.generated.swift in Sources */,
+				E585821320D7B97F00BC3F40 /* Repository.swift in Sources */,
+				E585821C20D7E08200BC3F40 /* AutoLayout DSL.swift in Sources */,
+				245F2EFA79AA39044580A3E6 /* SearchViewInput.swift in Sources */,
+				62EC5FD3CBE540C4C56AE2A0 /* SearchViewOutput.swift in Sources */,
+				E5AC8E0A20DBF3210072D120 /* RepositoryObject.swift in Sources */,
+				E596B1F820DABAE70053E35D /* SearchParams.swift in Sources */,
+				F416A6337C59D6EBD512E791 /* SearchViewController.swift in Sources */,
+				53B3505FEAC688E9C08F9AE9 /* SearchModuleInput.swift in Sources */,
+				E585821920D7D74C00BC3F40 /* Request.swift in Sources */,
+				2F9C6C6555335F0B18283931 /* SearchPresenter.swift in Sources */,
+				E596B21520DBD1430053E35D /* UIViewController+Extension.swift in Sources */,
+				E5AC8E0C20DBFA8E0072D120 /* Reachability.swift in Sources */,
+				E596B1F620DAB6950053E35D /* Paginator.swift in Sources */,
+				E5AC8E0820DBE63F0072D120 /* SearchView+DataSourceDelegate.swift in Sources */,
+				E585823020D817C700BC3F40 /* Operators.swift in Sources */,
+				E585822220D8016C00BC3F40 /* AuthorizationService.swift in Sources */,
+				1269CD6FAD79F2B2BD3227B7 /* SearchInteractorInput.swift in Sources */,
+				E585822720D8063A00BC3F40 /* Errors.swift in Sources */,
+				0C7E4BA4B69B2E39442E045A /* SearchInteractorOutput.swift in Sources */,
+				B2617AE7ED7B9442B9B81D0A /* SearchInteractor.swift in Sources */,
+				11DB85314D862971911A7CEB /* SearchRouterInput.swift in Sources */,
+				6E24AAB58325AA413B417544 /* SearchRouter.swift in Sources */,
+				E596B1FC20DBA2820053E35D /* String+Extension.swift in Sources */,
+				50806A9035D49F75FA687104 /* SearchConfigurator.swift in Sources */,
+				E585821720D7D45C00BC3F40 /* GithubRequest.swift in Sources */,
+				C8DF143B83814824B5F800F1 /* SearchInitializer.swift in Sources */,
+				9A62826FD950C67FB79B10F3 /* AuthorizationViewInput.swift in Sources */,
+				E596B21A20DBDC250053E35D /* WebViewController.swift in Sources */,
+				E596B1FA20DABD2E0053E35D /* SearchService.swift in Sources */,
+				30EA851FA449BC806F785B30 /* AuthorizationViewOutput.swift in Sources */,
+				9CCD2C4E29B145880B0CDDE8 /* AuthorizationViewController.swift in Sources */,
+				E585822920D80C2700BC3F40 /* User.swift in Sources */,
+				D65543B6ABBD71408A22C3FE /* AuthorizationModuleInput.swift in Sources */,
+				95B3BE0FE6D0032F078ECD1F /* AuthorizationPresenter.swift in Sources */,
+				0CE878014B5A1AAB6036B8C7 /* AuthorizationInteractorInput.swift in Sources */,
+				C6B2B3923F75B2ECADF56CEB /* AuthorizationInteractorOutput.swift in Sources */,
+				7B5ACF410752A52ED56D5A54 /* AuthorizationInteractor.swift in Sources */,
+				1B0A1168051477B9375F1524 /* AuthorizationRouterInput.swift in Sources */,
+				B3AE26EB44D70A118E78E39F /* AuthorizationRouter.swift in Sources */,
+				E5AC8E1220DC0C670072D120 /* AppRouter.swift in Sources */,
+				E585822E20D8165900BC3F40 /* UserDefaults.swift in Sources */,
+				E5AC8E0E20DBFA9D0072D120 /* ReachabilityManager.swift in Sources */,
+				E585822C20D812D100BC3F40 /* Optional+Extension.swift in Sources */,
+				739F23ED48B6044698703117 /* AuthorizationConfigurator.swift in Sources */,
+				E596B21320DBB3960053E35D /* Result.swift in Sources */,
+				96D519F05EFA8DFB192C46DE /* AuthorizationInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E560DFB220D7A3EF00C92C41 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E560DFB320D7A3EF00C92C41 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E560DFB720D7A3F100C92C41 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,23 +736,20 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		E560DFBE20D7A3F100C92C41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F8050A2E4F1B73E93A5BC1 /* Pods-GitHubSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS9A3Y8V79;
 				INFOPLIST_FILE = GitHubSearch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.GitHubSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,15 +759,13 @@
 		};
 		E560DFBF20D7A3F100C92C41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5CD64AAA9E08862D205252 /* Pods-GitHubSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS9A3Y8V79;
 				INFOPLIST_FILE = GitHubSearch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.GitHubSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
